@@ -1,0 +1,51 @@
+nav {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://media.istockphoto.com/id/1751631600/photo/aerial-view-agriculture-green-field-from-drone.jpg?s=612x612&w=0&k=20&c=mfaL0SGX1NuXWALYR9hgylpqEuQE90MYXLComxLiqvo='); 
+    background-size: cover; /* Ensure the background image covers the entire header */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat;
+    margin-top: 3px;
+    margin-right: 1px;
+    color: #fff;
+    overflow: hidden;
+}
+
+nav a {
+    float: right;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.search-bar {
+    float: left;
+    margin-top: 0px;
+    margin-right: 1px;
+    position: relative;
+}
+
+.search-bar input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 320px;
+}
+
+.search-bar button {
+    position: right;
+    top: 0;
+    right: 0;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+}
